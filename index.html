@@ -5,23 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Jonathan Ferraro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header>
-      <nav></nav>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a class="nav-button" href="#about-me">About</a></li>
+            <li><a class="nav-button" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-button" href="#">Skills</a></li>
+            <li><a class="nav-button" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="bulb-container">
+       <a><img src="./imgs/bulb1.png" alt="" id="bulb"></a>
+      </div>
     </header>
     <main>
+      <h1 class="title">Jonathan Ferraro</h1>
+      <div id="about-me">
+        <h2>About Me</h2>
+        <p>
+          I am a motivated and dedicated up-and-coming software engineer. I
+          thrive for growth in knowledge and experience and seek to apply my
+          skills in a working environment. My determination makes me able to
+          complete tasks.....
+        </p>
+        <p>I am interested in a job opportunity and I would love to be <a id="contact-button" href="#contact">contacted!</a></p>
+      </div>
+      <img src="" alt="">
+      <hr />
+      <h2>Portfolio</h2>
+      <div id="portfolio">
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+        <div class="port-item">
+          <img
+            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            alt=""
+          />
+          <p>Placeholder</p>
+        </div>
+      </div>
+      <hr />
 
-
-
-
-
-
-
-
-        
+      <div id="contact">
+        <h2>Contact Me</h2>
+        <p>jonathanferraro75@gmail.com</p>
+        <div class="contact-form">
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" required />
+            <br />
+            <label for="message">Message</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              required
+              rows="10"
+              cols="50"
+            ></textarea>
+            <br />
+            <input type="submit" value="Message Me" />
+          </form>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <hr />
+    <footer>
+      <a href="#"><p>Top</p></a>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>

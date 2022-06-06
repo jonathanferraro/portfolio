@@ -1,7 +1,108 @@
 html {
   font: 16px;
+  width: 100%;
+  background-color: #545454;
 }
 
-p {
-  color: red;
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+/* header */
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: whitesmoke;
+  z-index: 1;
+  display: inline-flex;
+  justify-content:  space-between;
+}
+
+
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.bulb-container {
+  margin: 7px 15px 0px 0px;
+}
+
+.bulb-container a:hover {
+  cursor: pointer;
+}
+
+main {
+  margin-top: 100px;
+  color: white;
+}
+
+/* About Me */
+
+#about-me {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+#contact-button {
+  color: white;
+}
+
+/* portfolio section */
+
+#portfolio {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+}
+
+#portfolio img {
+  height: 100px;
+  width: 100px;
+  padding: 0px 40px;
+}
+
+/* contact section */
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form input {
+  margin: 10px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  bottom: 0px;
+  height: 50px;
+  border: 1px solid black;
+  width: 100%;
+  background-color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
