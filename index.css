@@ -19,7 +19,7 @@ header {
   background-color: whitesmoke;
   z-index: 1;
   display: inline-flex;
-  justify-content:  space-between;
+  justify-content: space-between;
 }
 
 
@@ -37,13 +37,30 @@ nav a {
   color: black;
 }
 
+.toggle {
+  display: inline-flex;
+  margin-right: 5px;
+}
+
 .bulb-container {
-  margin: 7px 15px 0px 0px;
+  margin: 11px 0px 0px 0px;
 }
 
 .bulb-container a:hover {
   cursor: pointer;
 }
+
+
+/* media queries for header */
+
+@media only screen and (max-width: 500px) {
+  nav li {
+    font: 14px;
+    padding: 0 5px;
+  }
+}
+
+/* main */
 
 main {
   margin-top: 100px;
