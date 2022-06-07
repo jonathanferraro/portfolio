@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Jonathan Ferraro</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -25,9 +28,9 @@
       </div>
       <div class="toggle">
         <div class="bulb-container">
-        <a><img src="./imgs/bulb1.png" alt="" id="bulb"></a>
+          <a><img src="./imgs/bulb1.png" alt="" id="bulb" /></a>
         </div>
-        <h3>Theme</h3>
+        <h3 id="theme">Theme</h3>
       </div>
     </header>
     <main>
@@ -37,14 +40,18 @@
         <p>
           I am a motivated and dedicated up-and-coming software engineer. I
           thrive for growth in knowledge and experience and seek to apply my
-          skills in a working environment. My determination enables me to
-          search for solutions to problems and solve them efficiently and effectively.
-          My goal as a software engineer is to gain a position that will allow me to apply and utilize
-          my experiences to solve any task that is provided to me.  
+          skills in a working environment. My determination enables me to search
+          for solutions to problems and solve them efficiently and effectively.
+          My goal as a software engineer is to gain a position that will allow
+          me to apply and utilize my experiences to solve any task that is
+          provided to me.
         </p>
-        <p>I am interested in a job opportunity and I would love to be <a id="contact-button" href="#contact">contacted!</a></p>
+        <p>
+          I am interested in a job opportunity and I would love to be
+          <a id="contact-button" href="#contact">contacted!</a>
+        </p>
       </div>
-      <img src="" alt="">
+      <img src="" alt="" />
       <hr />
       <h2>Portfolio</h2>
       <div id="portfolio">
@@ -53,21 +60,10 @@
             src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
             alt=""
           />
-          <p>Placeholder</p>
-        </div>
-        <div class="port-item">
-          <img
-            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
-            alt=""
-          />
-          <p>Placeholder</p>
-        </div>
-        <div class="port-item">
-          <img
-            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
-            alt=""
-          />
-          <p>Placeholder</p>
+         <a href="https://jonathanferraro.github.io/tea-cozy/"><h3>Tea Cozy</h3> </a>
+          <p>
+            An example website for a coffee shop.
+          </p>
         </div>
         <div class="port-item">
           <img
@@ -97,9 +93,12 @@
         <h2>Contact Me</h2>
         <p>jonathanferraro75@gmail.com</p>
         <div class="contact-form">
-          <form action="https://formsubmit.co/jonathanferraro75@gmail.com" method="POST">
+          <form
+            action="https://formsubmit.co/jonathanferraro75@gmail.com"
+            method="POST"
+          >
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required/>
             <br />
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required />
@@ -113,12 +112,11 @@
               name="message"
               id="message"
               required
-              rows="10"
-              cols="50"
+              rows="15"
+              cols="60"
               required
             ></textarea>
             <br />
-            <!-- <input type="submit" value="Message Me" /> -->
             <button type="submit">Send</button>
           </form>
         </div>

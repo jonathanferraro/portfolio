@@ -1,5 +1,5 @@
 let bulb = document.getElementById("bulb");
-
+let theme = document.getElementById('theme');
 //inverts css color contrast
 
 const lightMode = () => {
@@ -13,6 +13,7 @@ const lightMode = () => {
   document.querySelector("footer").style.backgroundColor = "black";
   document.querySelector("footer").style.color = "white";
   document.querySelector("#contact-button").style.color = "black";
+  theme.style.color = 'white';
 };
 
 // resets css to default
@@ -28,6 +29,7 @@ const darkMode = () => {
   document.querySelector("footer").style.backgroundColor = "";
   document.querySelector("footer").style.color = "";
   document.querySelector("#contact-button").style.color = "";
+  theme.style.color = '';
 };
 
 //event handler for dark mode toggle
@@ -46,3 +48,4 @@ const changeBulb = () => {
 };
 
 bulb.addEventListener("click", changeBulb);
+theme.addEventListener("click", changeBulb);

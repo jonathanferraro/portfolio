@@ -50,6 +50,9 @@ nav a {
   cursor: pointer;
 }
 
+#theme:hover {
+  cursor: pointer;
+}
 
 /* media queries for header */
 
@@ -92,9 +95,17 @@ main {
 }
 
 #portfolio img {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   padding: 0px 40px;
+}
+
+.port-item p {
+  max-width: 250px;
+}
+
+.port-item a {
+  color: white;
 }
 
 /* contact section */
