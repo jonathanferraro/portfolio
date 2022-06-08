@@ -92,11 +92,9 @@ main {
 
 #skills {
   margin-top: 30px;
-  margin-bottom: 40px;
-}
-
-#skills h2 {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #skills img {
@@ -105,8 +103,14 @@ main {
   margin:0px 20px;
 }
 
+#skills img:hover {
+  height: 60px;
+  width: 60px;
+}
 
-
+#skills p {
+  visibility: hidden;
+}
 
 
 /* portfolio section */

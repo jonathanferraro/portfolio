@@ -8,7 +8,7 @@ const lightMode = () => {
   document.querySelector("html").style.backgroundColor = "white";
   document.querySelector("header").style.backgroundColor = "black";
   let buttons = document.querySelectorAll(".nav-button");
-  for (var i = 0; i < buttons.length; i++) {
+  for (let i = 0; i < buttons.length; i++) {
     buttons[i].style.color = "white";
   }
   document.querySelector("main").style.color = "black";
@@ -24,7 +24,7 @@ const darkMode = () => {
   document.querySelector("html").style.backgroundColor = "";
   document.querySelector("header").style.backgroundColor = "";
   let buttons = document.querySelectorAll(".nav-button");
-  for (var i = 0; i < buttons.length; i++) {
+  for (let i = 0; i < buttons.length; i++) {
     buttons[i].style.color = "";
   }
   document.querySelector("main").style.color = "";
@@ -56,3 +56,24 @@ theme.addEventListener("click", changeBulb);
 
 // *** skills section ***
 
+
+document.getElementById('skills-img1').addEventListener('mouseover', function textAppear2() {document.getElementById('skills-text1').style.visibility = 'visible'} )
+document.getElementById('skills-img1').addEventListener('mouseout', function textDisappear1() {document.getElementById('skills-text1').style.visibility = ''})
+
+document.getElementById('skills-img2').addEventListener('mouseover', function textAppear2() {document.getElementById('skills-text2').style.visibility = 'visible'})
+document.getElementById('skills-img2').addEventListener('mouseout', function textDisappear2() {document.getElementById('skills-text2').style.visibility = ''})
+
+document.getElementById('skills-img3').addEventListener('mouseover', function textAppear3() {document.getElementById('skills-text3').style.visibility = 'visible'})
+document.getElementById('skills-img3').addEventListener('mouseout', function textDisappear3() {document.getElementById('skills-text3').style.visibility = ''})
+
+document.getElementById('skills-img4').addEventListener('mouseover', function textAppear4() {document.getElementById('skills-text4').style.visibility = 'visible'})
+document.getElementById('skills-img4').addEventListener('mouseout', function textDisappear4() {document.getElementById('skills-text4').style.visibility = ''})
+
+document.getElementById('skills-img5').addEventListener('mouseover', function textAppear5() {document.getElementById('skills-text5').style.visibility = 'visible'})
+document.getElementById('skills-img5').addEventListener('mouseout', function textDisappear5() {document.getElementById('skills-text5').style.visibility = ''})
+
+document.getElementById('skills-img6').addEventListener('mouseover', function textAppear6() {document.getElementById('skills-text6').style.visibility = 'visible'})
+document.getElementById('skills-img6').addEventListener('mouseout', function textDisappear6() {document.getElementById('skills-text6').style.visibility = ''})
+
+document.getElementById('skills-img7').addEventListener('mouseover', function textAppear7() {document.getElementById('skills-text7').style.visibility = 'visible'})
+document.getElementById('skills-img7').addEventListener('mouseout', function textDisappear7() {document.getElementById('skills-text7').style.visibility = ''})
