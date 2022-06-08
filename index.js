@@ -1,3 +1,5 @@
+// *** DARK MODE ON OFF TOGGLE ***
+
 let bulb = document.getElementById("bulb");
 let theme = document.getElementById('theme');
 //inverts css color contrast
@@ -49,3 +51,8 @@ const changeBulb = () => {
 
 bulb.addEventListener("click", changeBulb);
 theme.addEventListener("click", changeBulb);
+
+// ----------------------------------------------------------------------------------------
+
+// *** skills section ***
+

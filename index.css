@@ -1,5 +1,5 @@
 html {
-  font: 16px;
+  font-size: 16px;
   width: 100%;
   background-color: #545454;
 }
@@ -58,8 +58,9 @@ nav a {
 
 @media only screen and (max-width: 500px) {
   nav li {
-    font: 14px;
+    font-size: 14px;
     padding: 0 5px;
+    font-weight: bold;
   }
 }
 
@@ -79,12 +80,40 @@ main {
   margin: 0 auto;
 }
 
+#about-me p {
+  font-size: 1.2rem;
+}
 
 #contact-button {
   color: white;
 }
 
+/* Skills section */
+
+#skills {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+}
+
+#skills img {
+  height: 50px;
+  width: 50px;
+  margin:0px 20px;
+}
+
+
+
+
+
 /* portfolio section */
+
+.portfolio-title {
+  margin: 40px 0px;
+}
 
 #portfolio {
   display: inline-flex;
@@ -92,20 +121,37 @@ main {
   flex-direction: row;
   width: 70%;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
+.port-item {
+  background-color: white;
+  padding: 30px 15px;
+}
+
+
 #portfolio img {
-  height: 200px;
-  width: 200px;
-  padding: 0px 40px;
+  height: 300px;
+  width: 300px;
+  padding: 0px 30px;
+}
+
+.port-item h3 {
+  color: black;
 }
 
 .port-item p {
   max-width: 250px;
+  color: black;
+  padding-left: 50px;
 }
 
 .port-item a {
   color: white;
+}
+
+.port-text a h3{
+  text-decoration: underline;
 }
 
 /* contact section */

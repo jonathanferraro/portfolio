@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -21,7 +21,7 @@
           <ul>
             <li><a class="nav-button" href="#about-me">About</a></li>
             <li><a class="nav-button" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-button" href="#">Skills</a></li>
+            <li><a class="nav-button" href="#skills">Skills</a></li>
             <li><a class="nav-button" href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -52,43 +52,69 @@
         </p>
       </div>
       <img src="" alt="" />
+      <div id="skills">
+        <h2>Skills</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="">
+        <img src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494740.png?token=exp=1654659715~hmac=dbe85f8504222febfa7706d637a9518a" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/888/888846.png" alt="">
+      </div>
       <hr />
-      <h2>Portfolio</h2>
+      <h2 class="portfolio-title">Portfolio</h2>
       <div id="portfolio">
         <div class="port-item">
           <img
-            src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
+            src="./imgs/tea-cozy.PNG"
             alt=""
           />
-         <a href="https://jonathanferraro.github.io/tea-cozy/"><h3>Tea Cozy</h3> </a>
-          <p>
-            An example website for a coffee shop.
-          </p>
+          <div class="port-text">
+            <a href="https://jonathanferraro.github.io/tea-cozy/"
+              ><h3>Tea Cozy</h3>
+            </a>
+            <p>An example website for a coffee shop. Designed with HTML and CSS.</p>
+          </div>
         </div>
         <div class="port-item">
           <img
             src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
             alt=""
           />
+          <div class="port-text">
+          <a href="#"
+            ><h3>Placeholder</h3>
+          </a>
           <p>Placeholder</p>
+          </div>
         </div>
         <div class="port-item">
           <img
             src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
             alt=""
           />
-          <p>Placeholder</p>
+          <div class="port-text">
+            <a href="#"
+              ><h3>Placeholder</h3>
+            </a>
+            <p>Placeholder</p>
+          </div>
         </div>
         <div class="port-item">
           <img
             src="https://www.livehome3d.com/assets/img/articles/blueprint-into-floor-plan/architectural-blueprint.jpg"
             alt=""
           />
-          <p>Placeholder</p>
+          <div class="port-text">
+            <a href="#"
+              ><h3>Placeholder</h3>
+            </a>
+            <p>Placeholder</p>
+          </div>
         </div>
       </div>
       <hr />
-
       <div id="contact">
         <h2>Contact Me</h2>
         <p>jonathanferraro75@gmail.com</p>
@@ -98,7 +124,7 @@
             method="POST"
           >
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" required/>
+            <input type="text" name="name" id="name" required />
             <br />
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required />
